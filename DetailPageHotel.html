@@ -9,15 +9,15 @@
     </head>
     
 <body>
-    <main class="bg-white h-screen w-screen px-40 py-[89px]  justify-center items-start gap-32 inline-flex">
+    <main class="bg-white h-screen w-screen lg:pt-8 lg:pr-40 lg:pb-8 lg:pl-40 sm:py-4 sm:px-8 px-40 py-[89px]  justify-center items-start gap-32 inline-flex">
         <div class="">
             <h1 class="text-stone-900 text-3xl font-medium font-['Inter']">
                 Hotel KM 15, With Luxury Bedrooms and Natural View
         </h1>
         <div class="justify-start items-start gap-8 mt-5 flex">
-            <img class="w-[544px] h-[328px] rounded-tl-[20px] rounded-bl-[20px]" src="asset/img/hotel-1.jpg" />
+            <!-- <img class="w-[544px] h-[328px]  rounded-tl-[20px] rounded-bl-[20px]" src="asset/img/hotel-1.jpg" />
             <img class="w-64 h-[328px]" src="asset/img/hotel-4.jpg" />
-            <img class="w-64 h-[328px] rounded-tr-[20px] rounded-br-[20px]" src="asset/img/hotel-3.jpg"/>
+            <img class="w-64 h-[328px] rounded-tr-[20px] rounded-br-[20px]" src="asset/img/hotel-3.jpg"/> -->
         </div>
         <div class="flex-col justify-start mt-5 items-start inline-flex">
             <div class="w-[321px] h-[50px] relative">
@@ -60,7 +60,7 @@
                     <div class="h-9 mt-4 mb-4 relative">
                         <div class="left-[47px] MT-5 absolute text-stone-900 text-xl font-normal font-['Inter']">MaxPro Admin</div>
                         <div class="left-[47px] top-[19px] absolute text-neutral-500 text-sm font-light mt-1 font-['Inter']">Seller</div>
-                        <img class="w-[35px] h-[35px] left-0 top-[1px] absolute rounded-full" src="asset/img/profile-pic.jpg" />
+                        <!-- <img class="w-[35px] h-[35px] left-0 top-[1px] absolute rounded-full" src="asset/img/profile-pic.jpg" /> -->
                     </div>
 
                     <svg
@@ -119,22 +119,28 @@
                     </div>
                 </div>
 
-                <div class="px-[58px] py-8 bg-white rounded-[20px] shadow-xl flex-col justify-start items-start gap-[27px] inline-flex">
+                <div class="px-[58px] py-8 ml-5 bg-white rounded-[20px] shadow-2xl flex-col justify-start items-start gap-[27px] inline-flex">
                     <div class="w-52 h-9 relative">
                         <div class="flex flex-row gap-2">
                             <div class="text-black text-3xl font-medium font-['Inter']">Rp500,000</div>
                             <div class="text-black text-[15px] font-light mt-2 font-['Inter'] relative">Night</div>
                         </div>
                     </div>
-                    <div class="w-80 h-[75.50px] border-2 shadow-xl rounded-md relative ">
-                        <div class="w-[73px] h-[42px] left-[78px] top-[104px] relative">
-                            <div class=" text-black text-[15px] font-normal font-['Inter']">CHECK-IN</div>
-                            <div class="left-0 top-[24px] absolute text-black text-[15px] font-light font-['Inter']">6/2/2024</div>
+                    <div class= "w-80 h-[75.50px] flex flex-row shadow-xl border-2 rounded-lg justify-around relative">
+
+                        <div>
+                            <div class="w-max h-[42px] left-[78px] top-[104px] rounded-l-lg  m-3 ">
+                                <div class=" text-black text-[15px] font-normal font-['Inter']">CHECK-IN</div>
+                                <div class=" text-black text-[15px] font-light font-['Inter']">6/2/2024</div>
+                            </div>
                         </div>
-                        <!-- <div class="w-[90px] h-[42px] left-[245px] top-[103px] absolute">
-                            <div class=" text-black text-[15px] font-normal font-['Inter']">CHECK-OUT</div>
-                            <div class="left-0 top-[24px] absolute text-black text-[15px] font-light font-['Inter']">6/7/2024</div>
-                        </div> -->
+
+                        <div>
+                            <div class="w-[90px] h-[42px] left-[245px] top-[103px] m-3">
+                                <div class=" text-black text-[15px] font-normal font-['Inter']">CHECK-OUT</div>
+                                <div class="  text-black text-[15px] font-light font-['Inter']">6/7/2024</div>
+                            </div>
+                        </div>
                     </div>
                     <div class="w-80 h-[43px] relative bg-slate-500 rounded">
                         <div class="left-[137px] top-[14px] absolute text-white text-xs font-normal font-['Inter']">Reserve</div>
@@ -143,8 +149,13 @@
 
 
             </div>
+            
+            <!-- pembatas  -->
+            <div class="h-40">
+                
+            </div>
 
-                <!-- <div
+                <div
     class="bg-gray-100 pt-4 pr-12 pb-4 pl-12 flex flex-row items-start justify-between flex-wrap self-stretch shrink-0 relative overflow-hidden">
     <div class="flex flex-col gap-[18px] items-start justify-start shrink-0 relative">
         <div class="flex flex-col gap-1 items-start justify-center shrink-0 relative">
@@ -238,7 +249,7 @@
         <div
             class="text-[#000000] text-left font-['Inter-Medium',_sans-serif] text-[10px] font-medium relative">
             © 2024 Booms, inc | Our Maps | Privacy </div>
-    </div> -->
+    </div>
 
     </main>
 </body>
